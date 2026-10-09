@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Project</title>
+    <style>
+    body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: rgb(135, 193, 247);
+  text-align: center;
+  font-family: verdana;
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+
+ footer {
+      background-color: #314a80;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 12px;
+      margin-top: 40px;
+    }
+
+    header {
+      background-color: #314a80;
+      color: white;
+      padding: 15px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+
+    .work-card {
+      background-color: white;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 25px;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .work-card2 {
+      background-color: white;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 25px;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    
+
+    .submit-btn {
+      width: 100%;
+      background-color: #272584;
+      color: white;
+      border: none;
+      padding: 10px;
+      font-weight: bold;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .submit-btn:hover {
+      background-color: #272584;
+    }
+
+    .avatar-container {
+      width: 100px;
+      height: 100px;
+      margin: 0 auto 15px auto;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 3px solid #7b2cbf;
+      background-color: #fff;
+    }
+
+    .avatar-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    p3 {
+      text-align:center;
+    }
+
+    .about-content {
+      background-color: white;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      text-align: center;
+      color: #555;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+    
+</style>
+</head>
+<body>
+    <header>
+        <nav class="avatar-container2">
+            <img src="https://rlv.zcache.com/peanuts_snoopy_looks_classic_round_sticker-rbc1cb46d42f4454885282a3be123014c_zg2qos_644.webp?rlvnet=1" alt="student logo" class="logo" width="90px">
+            <ul class="nav a" style="text-align: right;">
+                <li><a href="">About Me</a></li>
+                <li><a href="">My Works</a></li>
+                <li><a href="">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+    <div class="avatar-container">
+      
+        <img src="https://png.pngtree.com/png-clipart/20190921/original/pngtree-cartoon-flat-girl-character-design-free-download-png-image_4743952.jpg" alt="profile picture" class="pfp" alt="Avatar" width="90px"/>
+    </div>
+        <h1>Hi, I'm Marga!</h1>
+        <p3>Aspiring Writer and Artist</p3>
+    </section>
+
+    <section id="about-content">
+        <h1>About Me</h1>
+        <p1>Hi! I'm Marga, a student passionate about arts, journalism, and biology. I enjoy creating simple and creative artworks, digitally or physically. In my free time, I explore new art styles and stories.</p1>
+    </section>
+
+    <section id="works">
+        <h1>My Works</h1>
+        <div class="works-gallery">
+
+            <div class="work-card">
+      <div class="work-preview">
+        <img src="Screenshot 2026-09-21 at 4.15.54 PM.png" alt="Drill 1" width="350px"/>
+        <div class="work-preview-caption">Drill 1: Mobile Application Recommendations</div>
+      </div>
+      <div class="work-details">
+        <ul>
+         <li><a href="">HTML & CSS Projects</a></li>
+                <li><a href="">App Recommendarions</a></li>
+                <li><a href="">Lists, Hyperlinks, Images</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+            <div class="work-card2">
+      <div class="work-preview">
+        <img src="Adobe Express - file.jpg" alt="Drill 1"  width="250px"/>
+        <div class="work-preview-caption">Website Interface Design</div>
+      </div>
+      <div class="work-details">
+        <ul>
+         <li><a href="">Emoji Combo</a></li>
+                <li><a href="">Figma</a></li>
+                <li><a href="">Pinterest</a></li>
+        </ul>
+      </div>
+    </div>
+    </section>
+     <section id="contact">
+        <h2>Contact Me</h2>       
+        <div class="form-container">
+
+            <form>
+             <label for="name">Your Name:</label>
+             <input type="text" id="name" name="name" placeholder="Margaret Ventura" required>
+             <br>
+             <label for="email">Your Email:</label>
+             <input type="email" id="email" name="eamil" placeholder="janedoe@gmail.com" required>
+             <br>
+             <label>How did you find me?</label>
+             <div class="radio-group">
+                <input type="radio" id="rate1" name="rating" value="1" required>
+                <label for="rate1">Facebook</label>
+
+                <input type="radio" id="rate2" name="rating" value="2" required>
+                <label for="rate2">Instagram</label>
+
+                <input type="radio" id="rate3" name="rating" value="3" required>
+                <label for="rate3">Discord</label>
+             </div>
+
+             <br>
+
+             <label>Intrested in:</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="action" name="genre" value="Action">
+                    <label for="action">Web Design</label>
+
+                     <input type="checkbox" id="comedy" name="genre" value="Comedy">
+                    <label for="comedy">Graphic Design</label>
+
+                    <input type="checkbox" id="drama" name="genre" value="Drama">
+                    <label for="drama">Robotics</label>
+                </div>
+
+                <br>
+
+                <label for="platform">Rate My Portfolio</label>
+                <select id="platform">
+                    <option value="">Select Rating</option>
+                    <option value="1">✨</option>
+                     <option value="2">✨✨</option> 
+                     <option value="3">✨✨✨</option>
+                      <option value="4">✨✨✨✨</option>
+                       <option value="5">✨✨✨✨✨✨</option>
+                </select>
+
+                <br>
+
+                <label for="feedback">Any Feedback?</label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="feedback here..." required></textarea>
+
+                <br>
+
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+         </div>
+    </section>   
+    <footer>© 2026 Margaret Ventura. All rights reserved.
+</body>
+</html>
